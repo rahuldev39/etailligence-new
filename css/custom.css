@@ -262,7 +262,7 @@
     background-size: contain;
     padding-bottom: 35px !important;
     background-color: #354b5f;
-    background-image: linear-gradient(135deg, #162748, #0d1e40db 55%), url(./../img/typing.jpg);
+    background-image: linear-gradient(135deg, #162748, #0d1e40db 55%);
     background-size: cover;
 }
 .login-header img {
@@ -280,6 +280,16 @@
 .login-footer a {
     margin: 0px 4px;
     font-size: 13px;
+}
+.auth-box-w .alert {
+    padding: .5rem 1rem;
+    margin-bottom: 0rem;
+    font-size: 13px;
+    margin: 0px 25px;
+    font-weight: 500;
+}
+.auth-box-w .alert-dismissible .close {
+    padding: 0.4rem 1.25rem;
 }
 @media (max-width: 767px)
 {
